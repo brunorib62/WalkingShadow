@@ -1,0 +1,22 @@
+{
+  "name": "walkingshadow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunorib62/WalkingShadow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunorib62/WalkingShadow/issues"
+  },
+  "homepage": "https://github.com/brunorib62/WalkingShadow#readme",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
