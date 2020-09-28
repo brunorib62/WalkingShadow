@@ -1,8 +1,18 @@
+const config = {
+    canvas: {
+        x: 1500,
+        y: 1000
+    }
+}
+
+const player = new Player(config.canvas.x / 2, config.canvas.y / 2);
+
 function setup() {
-    createCanvas(1500, 1000);
+    createCanvas(config.canvas.x, config.canvas.y);
 }
 
 function draw() {
-    background(220);
-    ellipse(50,50,80,80);
+    clear();
+    player.walk();
+    player.draw();
 }
